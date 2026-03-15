@@ -132,7 +132,7 @@ const Dashboard = () => {
       </div>
 
       {/* Quick Journal Action */}
-      <Card className="border-border/50 bg-gradient-to-r from-primary to-primary/80 shadow-md">
+      <Card className="border-border/50 bg-gradient-to-r from-primary to-primary/80 shadow-md transition-transform duration-300 hover:scale-[1.02]">
         <CardContent className="flex items-center justify-between p-4">
           <div className="space-y-1">
             <p className="font-semibold text-primary-foreground">Start journaling</p>
@@ -160,7 +160,7 @@ const Dashboard = () => {
         {entries.length > 0 ? (
           <div className="space-y-3">
             {entries.map((entry: any, idx: number) => (
-              <Card key={idx} className="border-border/50 transition-all hover:border-primary/30">
+              <Card key={idx} className="border-border/50 transition-all duration-300 hover:border-primary/30 hover:scale-[1.01] hover:shadow-sm">
                 <CardContent className="flex items-center gap-4 p-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-muted">
                     <span className="text-2xl">

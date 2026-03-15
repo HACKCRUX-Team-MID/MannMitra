@@ -66,7 +66,7 @@ export function MobileHeader() {
             >
               <Sparkles className="h-5 w-5 text-primary" />
               {/* Online indicator */}
-              <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-emerald-500 ring-1 ring-background" />
+              <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-emerald-500 ring-1 ring-background animate-pulse" />
             </Button>
             <Avatar className="h-8 w-8 ring-2 ring-primary/20">
               <AvatarImage src="" alt="User" />
