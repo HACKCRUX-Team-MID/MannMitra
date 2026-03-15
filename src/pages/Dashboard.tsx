@@ -43,8 +43,8 @@ const Dashboard = () => {
     ? Math.round(recentScores.reduce((sum, e) => sum + e.intensity, 0) / recentScores.length)
     : "—"
     
-  // Revert fallback to 0 as intended
-  const totalEntries = analytics?.totalEntries || 0
+  // Real-time total entries calculation
+  const totalEntries = analytics?.count || 0
   const userName = user?.name?.split(' ')[0] || 'Friend'
 
   return (
