@@ -40,7 +40,7 @@ export function AppNav() {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 shadow-sm backdrop-blur-md">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2">
-            <SpiralLogo className="h-8 w-8" />
+            <SpiralLogo className="h-10 w-auto max-w-[120px]" />
             <span className="text-lg font-semibold text-foreground">MannMitra</span>
           </Link>
 

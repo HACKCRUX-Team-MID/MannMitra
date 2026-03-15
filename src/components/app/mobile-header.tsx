@@ -48,7 +48,7 @@ export function MobileHeader() {
                 </Button>
               </Link>
             ) : (
-              <SpiralLogo className="h-8 w-8" />
+              <SpiralLogo className="h-10 w-auto max-w-[120px]" />
             )}
           </div>
 
