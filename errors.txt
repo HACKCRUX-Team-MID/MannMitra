@@ -1,0 +1,17 @@
+src/pages/Companion.tsx(8,37): error TS2305: Module '"../utils/companionEngine"' has no exported member 'getGreeting'.
+src/pages/Companion.tsx(8,50): error TS2305: Module '"../utils/companionEngine"' has no exported member 'generateJournalEntry'.
+src/pages/Companion.tsx(8,77): error TS2305: Module '"../utils/companionEngine"' has no exported member 'CompanionMessage'.
+src/pages/Companion.tsx(79,21): error TS2339: Property 'response' does not exist on type 'Promise<CompanionResponse>'.
+src/pages/Companion.tsx(79,31): error TS2339: Property 'quickReplies' does not exist on type 'Promise<CompanionResponse>'.
+src/pages/Companion.tsx(83,17): error TS2554: Expected 1-3 arguments, but got 4.
+src/pages/Dashboard.tsx(11,10): error TS2305: Module '"../utils/patternEngine"' has no exported member 'detectSpirals'.
+src/pages/Dashboard.tsx(11,25): error TS2305: Module '"../utils/patternEngine"' has no exported member 'getDayPatterns'.
+src/pages/Dashboard.tsx(11,41): error TS2305: Module '"../utils/patternEngine"' has no exported member 'generateWeeklySummary'.
+src/pages/Dashboard.tsx(11,64): error TS2305: Module '"../utils/patternEngine"' has no exported member 'detectCorrelations'.
+src/pages/Insights.tsx(18,5): error TS2305: Module '"../utils/patternEngine"' has no exported member 'detectSpirals'.
+src/pages/Insights.tsx(18,20): error TS2305: Module '"../utils/patternEngine"' has no exported member 'detectCorrelations'.
+src/pages/Insights.tsx(18,40): error TS2305: Module '"../utils/patternEngine"' has no exported member 'generateWeeklySummary'.
+src/pages/Insights.tsx(19,5): error TS2305: Module '"../utils/patternEngine"' has no exported member 'generateEmotionalMirror'.
+src/pages/Insights.tsx(19,30): error TS2305: Module '"../utils/patternEngine"' has no exported member 'getDayPatterns'.
+src/utils/emotionEngine.ts(465,28): error TS6133: 'text' is declared but its value is never read.
+src/utils/moodPredictionEngine.ts(91,7): error TS6133: 'NEGATIVE_MOODS' is declared but its value is never read.

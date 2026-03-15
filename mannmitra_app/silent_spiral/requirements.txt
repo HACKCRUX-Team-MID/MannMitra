@@ -1,0 +1,4 @@
+pandas
+tensorflow
+transformers
+tf-keras

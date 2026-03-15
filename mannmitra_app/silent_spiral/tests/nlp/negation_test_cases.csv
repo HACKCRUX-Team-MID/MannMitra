@@ -1,0 +1,51 @@
+text,expected_emotion,negation_present,notes
+"I am not sad at all",Joy,true,Simple negation flips sadness to joy
+"I'm not happy about the results",Sadness,true,Simple negation flips joy to sadness
+"I don't feel stressed today",Joy,true,Negation of stress
+"I never feel lonely when I'm with them",Joy,true,Never-negation
+"I can't find any joy in things",Sadness,true,Can't-negation of joy
+"Nothing makes me excited anymore",Sadness,true,Nothing-negation
+"I'm not angry, just disappointed",Sadness,true,Not angry + second clause
+"I don't hate my job",Contemplation,true,Don't-negation
+"I didn't feel lonely at all this weekend",Joy,true,Past tense negation
+"I wasn't expecting to feel this calm",Joy,true,Wasn't-negation
+"There's no sadness in my heart right now",Joy,true,No-negation
+"I haven't felt anger like this in years",Anger,false,"Haven't modifies timeline, not the emotion itself"
+"I can't believe they didn't apologize",Anger,false,Double negation expressing anger
+"I can't stop worrying about the exam",Apprehension,false,"Can't stop = continuous, not negation of worry"
+"I won't tolerate this disrespect",Anger,false,"Won't = refusal, emotion is anger"
+"I'm not going to let them get away",Anger,false,Determination/anger not negation
+"Nothing is bothering me today",Joy,true,Nothing-negation
+"I'm not as stressed as I thought I'd be",Contemplation,true,Partial negation
+"I didn't deserve to be treated like that",Anger,false,"Didn't modifies deserve, emotion is anger"
+"I'm not okay with how they handled it",Anger,false,"Not okay = upset/angry"
+"Had a good lunch but work was stressful",Apprehension,false,"Clause boundary: 'but' separates positive from negative"
+"I was happy at first but then everything fell apart",Sadness,false,Clause boundary: second clause dominates
+"I'm grateful for my health but worried about finances",Apprehension,false,But-clause separates joy from apprehension
+"I feel relieved but also exhausted",Fatigue,false,But-clause separates relief from fatigue
+"She was kind to me however I still felt uneasy",Apprehension,false,However-clause separates
+"I love my job although the commute kills me",Fatigue,false,Although-clause separates
+"The movie was great yet I came home feeling sad",Sadness,false,Yet-clause separates
+"I'm not sad, I'm furious",Anger,true,"Not sad negation, but furious in second clause"
+"I'm not tired, I'm exhausted",Fatigue,true,"Not tired negation, but exhausted amplifies"
+"I never feel happier than when I'm with my dog",Joy,false,"Never + happier = superlative positive"
+"I'm not unhappy with how things turned out",Joy,true,Double negation = positive
+"I'm not not happy about this",Joy,false,Triple negation (edge case)
+"I feel sad but I'm not going to give up",Sadness,false,But-clause separates emotion from determination
+"Not a single person stood up for me",Anger,true,Not-negation in context of betrayal
+"I can't seem to shake off this heaviness",Sadness,false,"Can't shake = continuous feeling"
+"It's not like anyone would notice if I disappeared",Sadness,true,Negation conveying loneliness
+"I couldn't be more grateful for this opportunity",Joy,false,Couldn't be more = superlative positive
+"I couldn't be less interested in this topic",Contemplation,false,Couldn't be less = negative superlative
+"I am absolutely not stressed about the exam",Joy,true,Emphatic negation
+"I feel neither happy nor sad today",Contemplation,true,Neither/nor negation
+"I didn't think I would enjoy it but I did",Joy,false,But-clause reversal
+"Nobody understands what I'm going through",Sadness,false,Nobody = isolation (sadness)
+"I'm so not in the mood for this",Anger,true,Colloquial negation
+"I couldn't help but smile",Joy,false,"Couldn't help = involuntary positive"
+"I never said I was angry",Contemplation,true,Negation of previous state
+"I'm not the kind of person who gives up easily",Joy,false,Negation describes character positively
+"I don't have the energy for this anymore",Fatigue,true,Don't have energy = fatigue negation
+"I haven't been able to sleep because of anxiety",Apprehension,false,"Haven't been able = continuous deprivation"
+"I'm not afraid to admit I was wrong",Joy,true,Not afraid = courage/positive
+"I will never forgive what they did",Anger,false,"Never forgive = sustained anger"

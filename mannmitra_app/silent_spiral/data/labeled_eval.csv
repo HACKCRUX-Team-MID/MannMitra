@@ -1,0 +1,301 @@
+entry_id,text,true_label,category
+1,"I am so happy today, everything went perfectly!",Joy,normal
+2,"Feeling grateful for my family and the time we spent together.",Joy,normal
+3,"I can't stop smiling, got the promotion I wanted!",Joy,normal
+4,"Today was absolutely wonderful, I feel blessed.",Joy,normal
+5,"My heart is full of joy after seeing my friends.",Joy,normal
+6,"I feel so proud of what I accomplished this week.",Joy,normal
+7,"Received a surprise gift and I'm over the moon!",Joy,normal
+8,"Life feels good right now, everything is falling into place.",Joy,normal
+9,"Had the best conversation with my partner today.",Joy,normal
+10,"I'm so excited about the road trip next week!",Joy,normal
+11,"Woke up feeling positive and energized this morning.",Joy,normal
+12,"Got appreciated at work today and it made my day.",Joy,normal
+13,"I laughed so hard today my stomach hurts.",Joy,normal
+14,"Feeling content and peaceful sitting by the window.",Joy,normal
+15,"My best friend surprised me and I cried happy tears.",Joy,normal
+16,"Finally cleared my backlog and feel so relieved!",Joy,normal
+17,"Dancing in my room because I nailed the presentation!",Joy,normal
+18,"The sunset today was beautiful, felt at peace.",Joy,normal
+19,"Mom cooked my favorite food, feeling loved.",Joy,normal
+20,"Got accepted into the program I applied for!",Joy,normal
+21,"I feel so sad and alone, nobody understands me.",Sadness,normal
+22,"Missing my grandmother terribly, she passed away last month.",Sadness,normal
+23,"Crying myself to sleep again, feeling so empty inside.",Sadness,normal
+24,"I feel like nobody cares about what I'm going through.",Sadness,normal
+25,"The loneliness is crushing me tonight.",Sadness,normal
+26,"I can't stop thinking about how things fell apart.",Sadness,normal
+27,"Feeling really down today for no apparent reason.",Sadness,normal
+28,"Lost my pet last week and the grief is overwhelming.",Sadness,normal
+29,"I feel like I'm invisible to everyone around me.",Sadness,normal
+30,"My heart feels heavy and I just want to disappear.",Sadness,normal
+31,"Woke up feeling hopeless about the future.",Sadness,normal
+32,"Everything reminds me of what I've lost.",Sadness,normal
+33,"I feel hollow inside, like nothing matters anymore.",Sadness,normal
+34,"Breaking up was the hardest thing I've ever done.",Sadness,normal
+35,"I just want someone to talk to but nobody is there.",Sadness,normal
+36,"Feeling let down by someone I trusted completely.",Sadness,normal
+37,"The emptiness inside me keeps growing every day.",Sadness,normal
+38,"I regret not saying goodbye when I had the chance.",Sadness,normal
+39,"Today marks one year since I lost my best friend.",Sadness,normal
+40,"I feel like a failure in every aspect of my life.",Sadness,normal
+41,"So angry at my boss for being unfair during the meeting.",Anger,normal
+42,"I hate how frustrating this commute is every single day.",Anger,normal
+43,"Furious that my roommate betrayed my trust again.",Anger,normal
+44,"I yelled at my friend today and I feel terrible about it.",Anger,normal
+45,"People keep pushing my buttons and I'm about to snap.",Anger,normal
+46,"I'm sick of being taken for granted by everyone.",Anger,normal
+47,"My blood is boiling after that argument with my sibling.",Anger,normal
+48,"So pissed off at the system, nothing ever works.",Anger,normal
+49,"I want to scream into a pillow right now.",Anger,normal
+50,"The injustice of this situation makes me furious.",Anger,normal
+51,"I can't stand how disrespectful people are these days.",Anger,normal
+52,"Raged at customer service for wasting my entire afternoon.",Anger,normal
+53,"My neighbor's noise is driving me absolutely insane.",Anger,normal
+54,"I'm so mad at myself for making the same mistake again.",Anger,normal
+55,"Got into a heated fight with my parents about my career.",Anger,normal
+56,"Someone cut me off in traffic and I lost it.",Anger,normal
+57,"The way they treated my friend was disgusting and unfair.",Anger,normal
+58,"I threw my phone across the room in frustration.",Anger,normal
+59,"I despise the toxic environment at my workplace.",Anger,normal
+60,"Every little thing is irritating me today.",Anger,normal
+61,"Feeling really stressed about the upcoming deadline.",Apprehension,normal
+62,"I'm so anxious about the interview tomorrow, can't sleep.",Apprehension,normal
+63,"The pressure at work is overwhelming, I feel trapped.",Apprehension,normal
+64,"I'm scared about what the doctor will say tomorrow.",Apprehension,normal
+65,"My mind won't stop racing with worst-case scenarios.",Apprehension,normal
+66,"I have this constant knot in my stomach from worry.",Apprehension,normal
+67,"The uncertainty about my future is paralyzing me.",Apprehension,normal
+68,"I keep checking my phone obsessively waiting for results.",Apprehension,normal
+69,"What if everything goes wrong at the presentation?",Apprehension,normal
+70,"I feel like I'm walking on eggshells all the time.",Apprehension,normal
+71,"The dread of Monday morning is already hitting me.",Apprehension,normal
+72,"I can't stop overthinking about what people think of me.",Apprehension,normal
+73,"My heart races every time I think about the exam.",Apprehension,normal
+74,"Feeling overwhelmed by all the responsibilities piling up.",Apprehension,normal
+75,"I'm terrified of public speaking and I have to do it Friday.",Apprehension,normal
+76,"The thought of moving to a new city fills me with anxiety.",Apprehension,normal
+77,"I'm panicking because the rent is due and I'm short.",Apprehension,normal
+78,"Every night I lie awake worrying about money.",Apprehension,normal
+79,"I feel nervous about meeting new people at the event.",Apprehension,normal
+80,"The fear of failure is stopping me from even trying.",Apprehension,normal
+81,"So tired I can barely keep my eyes open.",Fatigue,normal
+82,"Completely exhausted after pulling an all-nighter.",Fatigue,normal
+83,"No energy left, burnout is real and I'm feeling it.",Fatigue,normal
+84,"My body feels like it's made of lead today.",Fatigue,normal
+85,"Couldn't even get out of bed this morning, so drained.",Fatigue,normal
+86,"Running on empty after a week of no sleep.",Fatigue,normal
+87,"I feel like a zombie walking through the day.",Fatigue,normal
+88,"My brain is foggy and I can't concentrate on anything.",Fatigue,normal
+89,"Physically and mentally spent after this week.",Fatigue,normal
+90,"I just want to sleep for a week straight.",Fatigue,normal
+91,"Even simple tasks feel impossible when I'm this tired.",Fatigue,normal
+92,"Dragging myself through the day with zero motivation.",Fatigue,normal
+93,"My eyes are burning from staring at screens all day.",Fatigue,normal
+94,"Collapsed on the couch the moment I got home.",Fatigue,normal
+95,"I'm running on caffeine and prayers at this point.",Fatigue,normal
+96,"Today was fine, nothing special happened.",Contemplation,normal
+97,"Just thinking about what I want from life.",Contemplation,normal
+98,"Spent the evening reflecting on my choices this year.",Contemplation,normal
+99,"Wondering if I'm on the right path or just drifting.",Contemplation,normal
+100,"Observing the rain and thinking about how time passes.",Contemplation,normal
+101,"I'm not happy but I'm not sad either, just existing.",Contemplation,normal
+102,"Had a quiet day, used it to think about my goals.",Contemplation,normal
+103,"Reading a book and pondering the meaning of it all.",Contemplation,normal
+104,"Staring at the ceiling thinking about nothing and everything.",Contemplation,normal
+105,"Life is strange, neither good nor bad right now.",Contemplation,normal
+106,"I am not sad at all, things are actually going well.",Joy,negation
+107,"I'm not angry anymore, we talked it out and I feel better.",Joy,negation
+108,"I don't feel stressed today for the first time in weeks.",Joy,negation
+109,"I'm not worried about the results, I prepared well.",Joy,negation
+110,"I'm not tired today, actually feeling pretty energized!",Joy,negation
+111,"Nothing is bothering me today, all good.",Joy,negation
+112,"I didn't feel lonely at all this weekend.",Joy,negation
+113,"There's no sadness in my heart right now, just peace.",Joy,negation
+114,"I'm not anxious about the meeting anymore, I feel ready.",Joy,negation
+115,"I never feel happier than when I'm with my dog.",Joy,negation
+116,"I can't say I'm unhappy with how things turned out.",Joy,negation
+117,"I'm not upset, just a bit tired from the long day.",Fatigue,negation
+118,"I don't hate my job, I just don't love it either.",Contemplation,negation
+119,"I wasn't expecting to feel this calm after the talk.",Joy,negation
+120,"I'm not as stressed as I thought I'd be.",Contemplation,negation
+121,"I'm not happy about the grade I received.",Sadness,negation
+122,"I don't feel like things will get better anytime soon.",Sadness,negation
+123,"I can't find any joy in the things I used to love.",Sadness,negation
+124,"Nothing makes me excited anymore.",Sadness,negation
+125,"I don't feel good about myself at all.",Sadness,negation
+126,"My efforts were not appreciated by anyone.",Sadness,negation
+127,"I never feel like I belong anywhere.",Sadness,negation
+128,"I can't seem to shake off this heaviness.",Sadness,negation
+129,"It's not like anyone would notice if I disappeared.",Sadness,negation
+130,"I don't think I'll ever be good enough.",Sadness,negation
+131,"I haven't felt anger like this in years.",Anger,negation
+132,"I can't believe they didn't apologize after all that.",Anger,negation
+133,"Not a single person stood up for me.",Anger,negation
+134,"I won't tolerate this disrespect any longer.",Anger,negation
+135,"I'm not going to let them get away with this.",Anger,negation
+136,"They didn't even consider my feelings, so unfair.",Anger,negation
+137,"I'm not okay with how they handled the situation.",Anger,negation
+138,"I can't help but feel betrayed and furious.",Anger,negation
+139,"Nothing can justify what they did to me.",Anger,negation
+140,"I didn't deserve to be treated like that.",Anger,negation
+141,"I can't stop worrying about not being prepared enough.",Apprehension,negation
+142,"I don't feel safe in this neighborhood anymore.",Apprehension,negation
+143,"Nothing about this plan feels right to me.",Apprehension,negation
+144,"I haven't been able to sleep because of the anxiety.",Apprehension,negation
+145,"I'm not confident I'll pass the certification exam.",Apprehension,negation
+146,"Had a good lunch but work was stressful today.",Apprehension,mixed
+147,"I'm worried about exams but also excited for the holidays.",Apprehension,mixed
+148,"Feeling tired and lonely, wish someone was here.",Sadness,mixed
+149,"My friend made me laugh today despite feeling low.",Joy,mixed
+150,"Happy about the weekend but dreading Monday already.",Joy,mixed
+151,"Got a compliment but also some harsh criticism.",Contemplation,mixed
+152,"Excited about the trip but anxious about flying.",Apprehension,mixed
+153,"Love my new job but the commute is killing me.",Fatigue,mixed
+154,"Had fun at the party but now I feel drained.",Fatigue,mixed
+155,"The movie was heartwarming but also made me cry.",Sadness,mixed
+156,"I'm grateful for my health but worried about finances.",Apprehension,mixed
+157,"Proud of my progress but frustrated it's so slow.",Anger,mixed
+158,"Enjoyed the concert but the crowd stressed me out.",Apprehension,mixed
+159,"My partner was sweet today but we still have unresolved issues.",Contemplation,mixed
+160,"I feel relieved the project is done but exhausted from it.",Fatigue,mixed
+161,"Happy memories from childhood but sad they're just memories now.",Sadness,mixed
+162,"The news was mostly good but one part really upset me.",Anger,mixed
+163,"I'm thankful for my friends but tired of always being the strong one.",Fatigue,mixed
+164,"We celebrated my birthday but I felt lonely inside.",Sadness,mixed
+165,"Good grades this semester but I'm burned out from studying.",Fatigue,mixed
+166,"Love spending time with family but they drain my energy.",Fatigue,mixed
+167,"Pleased with the raise but the extra responsibility is scary.",Apprehension,mixed
+168,"I feel hopeful about the new year but scared of change.",Apprehension,mixed
+169,"Exciting news at work but I'm anxious about the transition.",Apprehension,mixed
+170,"Got to see my old friends but it reminded me of what I've lost.",Sadness,mixed
+171,"The sunrise was beautiful but I couldn't sleep all night.",Fatigue,mixed
+172,"I laughed a lot today but deep down I'm hurting.",Sadness,mixed
+173,"I succeeded but at what cost to my mental health.",Contemplation,mixed
+174,"Music cheers me up but sometimes the lyrics hit too hard.",Sadness,mixed
+175,"Looking forward to vacation but stressed about the deadlines before.",Apprehension,mixed
+176,"Excited for the new project but nervous about my team.",Apprehension,mixed
+177,"I enjoyed the meal but the conversation was awkward.",Contemplation,mixed
+178,"Grateful for the opportunity but terrified of messing up.",Apprehension,mixed
+179,"Happy my team won but sore from playing so hard.",Fatigue,mixed
+180,"I feel alive when I exercise but so tired afterwards.",Fatigue,mixed
+181,"The wedding was joyful but reminded me I'm single.",Sadness,mixed
+182,"I got promoted but now I'm stressed about new responsibilities.",Apprehension,mixed
+183,"Found my old diary and felt both nostalgic and sad.",Sadness,mixed
+184,"My kid made me proud but I worry about their future.",Apprehension,mixed
+185,"Enjoyed the road trip but fighting with my travel buddy.",Anger,mixed
+186,"ugh",Anger,short
+187,"fine.",Contemplation,short
+188,"meh",Contemplation,short
+189,"whatever",Anger,short
+190,"so tired",Fatigue,short
+191,"hate this",Anger,short
+192,"love it",Joy,short
+193,"why me",Sadness,short
+194,"I'm done",Fatigue,short
+195,"not okay",Sadness,short
+196,"help",Apprehension,short
+197,"blah",Contemplation,short
+198,"sigh",Sadness,short
+199,"yay!",Joy,short
+200,"ugh work",Anger,short
+201,"can't anymore",Fatigue,short
+202,"feeling off",Contemplation,short
+203,"nope",Anger,short
+204,"so stressed",Apprehension,short
+205,"miss home",Sadness,short
+206,"happy vibes",Joy,short
+207,"kill me now",Fatigue,short
+208,"finally done",Joy,short
+209,"tears",Sadness,short
+210,"burned out",Fatigue,short
+211,"no energy",Fatigue,short
+212,"go away",Anger,short
+213,"so alone",Sadness,short
+214,"just numb",Contemplation,short
+215,"exhausted af",Fatigue,short
+216,"Oh great, another Monday.",Anger,sarcasm
+217,"Wonderful, more homework. Just what I needed.",Anger,sarcasm
+218,"Sure, because my life isn't stressful enough already.",Apprehension,sarcasm
+219,"Fantastic, another meeting that could've been an email.",Anger,sarcasm
+220,"Love how nobody listens to me. Really great feeling.",Sadness,sarcasm
+221,"Perfect timing! My car broke down on exam day.",Apprehension,sarcasm
+222,"Yeah right, like things could possibly get any worse.",Sadness,sarcasm
+223,"Thanks a lot for ruining my weekend plans.",Anger,sarcasm
+224,"Oh joy, another rejection letter.",Sadness,sarcasm
+225,"Brilliant, I get to work overtime again. Living the dream.",Fatigue,sarcasm
+226,"Awesome, my roommate ate my food again. So considerate.",Anger,sarcasm
+227,"Super excited to do laundry on my only day off.",Fatigue,sarcasm
+228,"What a surprise, they cancelled plans again. Shocker.",Anger,sarcasm
+229,"Just thrilled about this traffic jam. Best commute ever.",Anger,sarcasm
+230,"How lovely, rain on the one day I forgot my umbrella.",Anger,sarcasm
+231,"Can't wait for another sleepless night. Fun times.",Fatigue,sarcasm
+232,"Really enjoying this group project where I do everything.",Anger,sarcasm
+233,"Amazing how everything falls apart at once.",Apprehension,sarcasm
+234,"So glad I studied for hours just to fail the test.",Sadness,sarcasm
+235,"Nothing like a migraine to make my day complete.",Fatigue,sarcasm
+236,"I failed my exam and I feel like a complete disappointment.",Sadness,academic
+237,"Got bad marks in maths, my parents will be so upset.",Sadness,academic
+238,"Semester results came out and I'm devastated.",Sadness,academic
+239,"Failed the entrance exam, all my preparation was wasted.",Sadness,academic
+240,"My score was the lowest in the class, so embarrassing.",Sadness,academic
+241,"I scored 95% on my board exams, I'm so proud!",Joy,academic
+242,"Got a scholarship! Hard work really pays off.",Joy,academic
+243,"My professor praised my thesis today!",Joy,academic
+244,"Topped the class in physics, feeling amazing!",Joy,academic
+245,"Finally passed the competitive exam after 3 attempts.",Joy,academic
+246,"Exam tomorrow and I haven't started studying yet.",Apprehension,academic
+247,"The syllabus is huge and I don't know where to start.",Apprehension,academic
+248,"Board exams in two weeks and I'm panicking.",Apprehension,academic
+249,"What if I fail? My whole career depends on this.",Apprehension,academic
+250,"I can feel the exam pressure crushing me everyday.",Apprehension,academic
+251,"Studied all night for the test and now I'm a zombie.",Fatigue,academic
+252,"Three exams in two days, I'm completely burned out.",Fatigue,academic
+253,"Can't keep my eyes open while studying for finals.",Fatigue,academic
+254,"College workload is destroying my health.",Fatigue,academic
+255,"Haven't slept properly in a week because of assignments.",Fatigue,academic
+256,"So angry at the professor for failing me unfairly.",Anger,academic
+257,"The grading system is completely biased and I'm furious.",Anger,academic
+258,"My groupmates did nothing and I got a bad grade.",Anger,academic
+259,"The teacher humiliated me in front of the entire class.",Anger,academic
+260,"I'm done with this toxic academic environment.",Anger,academic
+261,"Thinking about whether engineering was the right choice.",Contemplation,academic
+262,"Not sure if college is worth it anymore.",Contemplation,academic
+263,"Sitting in the library wondering about my career path.",Contemplation,academic
+264,"Studying feels mechanical, I don't know what I want.",Contemplation,academic
+265,"Maybe I should take a gap year and figure things out.",Contemplation,academic
+266,"bahut tension ho rahi hai exam ki",Apprehension,hinglish
+267,"mann nahi lag raha kisi kaam mein",Sadness,hinglish
+268,"aaj bahut acha din tha, full on masti",Joy,hinglish
+269,"thak gaya hoon yaar, rest chahiye",Fatigue,hinglish
+270,"gussa aa raha hai mujhe is situation pe",Anger,hinglish
+271,"exam mein fail hogaya, zindagi barbaad",Sadness,hinglish
+272,"kuch samajh nahi aa raha, sab confusing hai",Contemplation,hinglish
+273,"bahut khush hoon aaj, result acha aaya",Joy,hinglish
+274,"darr lag raha hai interview ke baare mein",Apprehension,hinglish
+275,"neend nahi aa rahi raat ko stress ki wajah se",Apprehension,hinglish
+276,"mujhe kisi ne samjha hi nahi aaj",Sadness,hinglish
+277,"bahut bore ho raha hoon ghar pe",Contemplation,hinglish
+278,"subah se sir dard ho raha hai, so tired",Fatigue,hinglish
+279,"dost ne hurt kar diya, bahut bura laga",Sadness,hinglish
+280,"finally job mil gayi, feeling blessed",Joy,hinglish
+281,"parents se ladai ho gayi aaj, bahut gussa",Anger,hinglish
+282,"kal exam hai aur kuch yaad nahi",Apprehension,hinglish
+283,"mann udas hai aaj bina kisi reason ke",Sadness,hinglish
+284,"pura din so ke nikla, no energy",Fatigue,hinglish
+285,"kuch naya try karna chahiye life mein",Contemplation,hinglish
+286,"Today started with such promise, the morning sun streaming through my window made me feel alive and grateful. I had a productive meeting at work where my ideas were well received, and my colleague even complimented my presentation skills. Later I went for a walk in the park and just felt at peace with the world.",Joy,long
+287,"I have been struggling with my mental health for months now. Every day feels like a battle just to get out of bed. My friends don't seem to understand what I'm going through, and I feel like I'm slowly fading away from everyone's life. The worst part is not knowing if this feeling will ever end.",Sadness,long
+288,"I am absolutely livid about what happened at work today. My manager threw me under the bus in front of the entire team for a mistake that wasn't even mine. Then when I tried to explain, they cut me off. I work so hard for this company and this is how they repay my loyalty. This place is toxic.",Anger,long
+289,"The anxiety has been building for weeks and today it finally peaked. I have three major deadlines next week, a family event I'm supposed to organize, my car needs repairs I can't afford, and my landlord just raised the rent. I feel like I'm drowning in responsibilities and there's no way to keep my head above water.",Apprehension,long
+290,"This past month has been the most exhausting period of my life. Between working double shifts, taking online courses at night, caring for my elderly parents on weekends, and trying to maintain some semblance of a social life, I'm spread dangerously thin. My body aches, my mind is foggy, and I can't remember the last time I truly rested.",Fatigue,long
+291,"I've been doing a lot of thinking lately about where my life is heading. Three years ago I was certain about my career path, but now I'm questioning everything. Am I really passionate about engineering or was it just my parents' dream? What would I do if money wasn't a factor? These questions keep spinning in my mind without resolution.",Contemplation,long
+292,"Despite the rain and the traffic and the long queue at the coffee shop, today was unexpectedly wonderful. A stranger held the door for me, my old school friend called out of nowhere, and I found a beautiful handwritten note my wife left in my lunchbox. Sometimes the smallest gestures carry the most weight.",Joy,long
+293,"The grief comes in waves. Some days I think I'm doing better and then a song plays or I see someone who looks like her and the pain crashes back. Three months since she left and the apartment still smells like her perfume. I keep her coffee mug exactly where she left it because moving it feels like erasing her.",Sadness,long
+294,"I sat through an entire dinner listening to my relatives criticize every choice I've ever made: my job, my apartment, my hobbies, even my friends. The passive-aggressive comments and backhanded compliments were relentless. By dessert I was clenching my fists under the table trying not to explode because I'm sick of being everyone's punching bag.",Anger,long
+295,"I stare at my phone waiting for the callback. They said they'd let me know by Friday. It's now Saturday evening. Every notification makes my heart skip a beat. I've been refreshing my email obsessively. This job means everything to me. If I don't get it, I don't know what my plan B is. The uncertainty is eating me alive.",Apprehension,long
+296,"Three consecutive night shifts this week and my body is officially giving up. My hands were shaking today during rounds. I accidentally called a patient by the wrong name because my brain just won't function anymore. I drove home with the windows down in the cold just to stay awake. This isn't sustainable.",Fatigue,long
+297,"Walking through the old neighborhood today stirred up a complicated mix of feelings. The playground where we used to play, the bakery that closed down, the tree we carved our initials into. Everything changes and nothing changes. I'm not sad exactly, just aware of time passing and wondering what it all adds up to in the end.",Contemplation,long
+298,"My daughter took her first steps today and in that two-second wobble across the living room, every sleepless night, every diaper change at 3am, every moment of doubt about being a good parent melted away. I picked her up and held her close, crying tears of pure unadulterated joy. This is what life is about.",Joy,long
+299,"I woke up at 3am in a cold sweat again. The nightmare about the accident keeps coming back. During the day I'm fine but at night my brain replays everything in vivid detail. The screech of tires, the impact, the silence after. My therapist says it's normal processing but it doesn't feel normal. I'm afraid to close my eyes.",Apprehension,long
+300,"Today I sat in the park for two hours just watching people. Couples walking hand in hand, kids playing on swings, elderly people feeding pigeons. Everyone seems to have a purpose, a connection. I'm just sitting here trying to figure out where I fit in this picture. Not particularly sad or happy. Just thinking.",Contemplation,long

@@ -1,0 +1,345 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (97.0.0 available)
+  _flutterfire_internals 1.3.66 (1.3.67 available)
+  analyzer 10.0.1 (11.0.0 available)
+  cloud_firestore 6.1.2 (6.1.3 available)
+  cloud_firestore_platform_interface 7.0.6 (7.0.7 available)
+  cloud_firestore_web 5.1.2 (5.1.3 available)
+  firebase_ai 3.8.0 (3.9.0 available)
+  firebase_app_check 0.4.1+4 (0.4.1+5 available)
+  firebase_app_check_platform_interface 0.2.1+4 (0.2.1+5 available)
+  firebase_app_check_web 0.2.2+2 (0.2.2+3 available)
+  firebase_auth 6.1.4 (6.2.0 available)
+  firebase_auth_platform_interface 8.1.6 (8.1.7 available)
+  firebase_auth_web 6.1.2 (6.1.3 available)
+  firebase_core 4.4.0 (4.5.0 available)
+  firebase_core_web 3.4.0 (3.5.0 available)
+  firebase_vertexai 2.2.0 (discontinued replaced by firebase_ai)
+  fl_chart 1.1.1 (1.2.0 available)
+  flutter_local_notifications 20.1.0 (21.0.0 available)
+  flutter_local_notifications_linux 7.0.0 (8.0.0 available)
+  flutter_local_notifications_platform_interface 10.0.0 (11.0.0 available)
+  flutter_local_notifications_windows 2.0.1 (3.0.0 available)
+  flutter_riverpod 3.2.1 (3.3.1 available)
+  flutter_secure_storage 9.2.4 (10.0.0 available)
+  flutter_secure_storage_linux 1.2.3 (3.0.0 available)
+  flutter_secure_storage_macos 3.1.3 (4.0.0 available)
+  flutter_secure_storage_platform_interface 1.1.2 (2.0.1 available)
+  flutter_secure_storage_web 1.2.1 (2.1.0 available)
+  flutter_secure_storage_windows 3.1.2 (4.1.0 available)
+  hooks 1.0.1 (1.0.2 available)
+  js 0.6.7 (0.7.2 available)
+  matcher 0.12.18 (0.12.19 available)
+  meta 1.17.0 (1.18.1 available)
+  native_toolchain_c 0.17.4 (0.17.5 available)
+  test 1.29.0 (1.30.0 available)
+  test_api 0.7.9 (0.7.10 available)
+  test_core 0.6.15 (0.6.16 available)
+  timezone 0.10.1 (0.11.0 available)
+  win32 5.15.0 (6.0.0 available)
+  win32_registry 2.1.0 (3.0.2 available)
+Got dependencies!
+1 package is discontinued.
+38 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing silent_spiral...                                      
+
+  error - The getter 'darkTheme' isn't defined for the type 'AppTheme' - lib\main.dart:70:23 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:114:70 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:114:79 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:116:35 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:117:45 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:162:41 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:175:41 - undefined_getter
+  error - The getter 'backgroundDark' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:176:41 - undefined_getter
+  error - The getter 'backgroundDark' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:189:35 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:207:29 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:215:20 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:224:20 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:237:31 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:238:33 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:252:72 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:252:81 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:275:17 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:300:35 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:312:27 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:313:29 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:373:58 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:375:58 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:377:55 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:381:27 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:410:27 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:411:29 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:422:68 - invalid_constant
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:422:77 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:439:27 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:440:29 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:451:35 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:454:73 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:454:82 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:460:35 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:483:47 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:485:85 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:485:94 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\dashboard_screen.dart:502:76 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:502:85 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:511:43 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:512:50 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:85:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:139:33 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:146:76 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\insights_screen.dart:152:109 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:152:118 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:155:34 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:156:36 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:169:34 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:170:36 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:199:33 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:210:75 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:222:29 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:228:31 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:229:33 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:244:52 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:246:56 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:248:61 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:250:56 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:272:52 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:273:39 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:274:71 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:275:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:276:32 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:293:29 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:301:33 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:302:35 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:316:51 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:342:37 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:349:41 - undefined_getter
+  error - The getter 'backgroundDark' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:351:47 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:358:36 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:359:36 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:411:32 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:417:34 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:431:29 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:439:33 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:440:35 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:484:79 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:503:29 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:509:31 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:510:33 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\insights_screen.dart:518:59 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:518:68 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:85:35 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:94:44 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:94:53 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:125:62 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:125:71 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:169:35 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:170:77 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:170:86 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:195:71 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:195:80 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:305:46 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:322:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:346:43 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:348:62 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:419:31 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:434:33 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:436:52 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:461:41 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:461:81 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:464:84 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:464:93 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:470:37 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:481:33 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:482:35 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:492:41 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:510:47 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:527:55 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:547:37 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:549:56 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:585:57 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:585:66 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:598:39 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:600:58 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:605:100 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:605:109 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:646:35 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:648:54 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:660:45 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:668:43 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:692:35 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:693:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:701:67 - invalid_constant
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:701:76 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:706:43 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:733:35 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:734:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:742:74 - invalid_constant
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:742:83 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:747:43 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:793:22 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:794:22 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:797:44 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:805:53 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:805:62 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:810:35 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:840:41 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:863:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:864:37 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:865:38 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:867:44 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:873:46 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:873:64 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:890:51 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:896:33 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:920:25 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:922:44 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:947:36 - invalid_constant
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:947:45 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:952:29 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:959:29 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:975:37 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:993:35 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:995:54 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1000:43 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:1042:38 - invalid_constant
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1042:47 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1047:43 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1060:35 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1061:39 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1062:37 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1063:36 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1064:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1065:32 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1080:41 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1081:41 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1082:21 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1094:45 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1095:45 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1096:21 - undefined_getter
+  error - The getter 'backgroundDark' isn't defined for the type 'AppTheme' - lib\ui\screens\onboarding_consent_screen.dart:21:33 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\onboarding_consent_screen.dart:30:77 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\onboarding_consent_screen.dart:75:43 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\onboarding_consent_screen.dart:116:36 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:21:37 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:54:25 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:56:44 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:63:31 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:66:47 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:21:107 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:24:33 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:25:35 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:32:38 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:32:47 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:34:38 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:34:47 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:36:38 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:36:47 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:44:108 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:49:35 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:50:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:55:62 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:55:71 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:78:48 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:87:98 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:90:33 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:91:35 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:102:110 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:114:35 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:115:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:122:40 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:122:49 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:124:40 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:124:49 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:127:42 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:127:51 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:141:78 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:141:87 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:154:79 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:154:88 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:169:57 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:170:96 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:170:105 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:180:86 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:180:95 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:186:76 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:186:85 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:187:89 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:187:98 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:189:57 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:189:66 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:203:109 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:206:33 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:207:35 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:231:104 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:237:69 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:237:78 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:238:76 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:238:85 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:240:47 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:240:56 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:256:36 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:275:48 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:275:57 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:290:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:291:76 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:291:85 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:301:77 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:301:86 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:310:57 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:310:66 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:314:57 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:314:66 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:336:55 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:347:80 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\animated_background_orbs.dart:23:28 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\widgets\animated_background_orbs.dart:45:28 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\widgets\animated_background_orbs.dart:67:28 - undefined_getter
+  error - The getter 'pink' isn't defined for the type 'AppTheme' - lib\ui\widgets\animated_background_orbs.dart:88:28 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\crisis_support_button.dart:12:23 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\custom_button.dart:27:29 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\custom_button.dart:32:29 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\widgets\custom_button.dart:96:25 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:61:33 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:133:52 - undefined_getter
+  error - The getter 'cyan' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:134:39 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:135:37 - undefined_getter
+  error - The getter 'deepOceanBlue' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:137:39 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:138:32 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:89:45 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:98:64 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:132:98 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:138:66 - undefined_getter
+  error - The getter 'surfaceDark' isn't defined for the type 'AppTheme' - lib\ui\widgets\glass_container.dart:43:45 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\grounding_breathing_halo.dart:36:28 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\grounding_breathing_halo.dart:37:28 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\grounding_breathing_halo.dart:42:35 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\grounding_breathing_halo.dart:56:31 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:36:29 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:44:27 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:45:29 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:57:35 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:76:48 - undefined_getter
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:77:50 - undefined_getter
+  error - The getter 'warmGold' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:78:42 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:79:44 - undefined_getter
+  error - The getter 'surfaceDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:50:33 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:53:39 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:53:48 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:69:35 - undefined_getter
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:71:54 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:75:43 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:75:52 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:94:55 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:94:64 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:98:55 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:98:64 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:121:57 - invalid_constant
+  error - The getter 'surfaceDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:121:66 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:125:57 - invalid_constant
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:125:66 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:141:59 - invalid_constant
+  error - The getter 'terracotta' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:141:68 - undefined_getter
+  error - The getter 'accent' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:155:39 - undefined_getter
+

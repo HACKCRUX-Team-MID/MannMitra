@@ -1,0 +1,117 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (97.0.0 available)
+  _flutterfire_internals 1.3.66 (1.3.67 available)
+  analyzer 10.0.1 (11.0.0 available)
+  cloud_firestore 6.1.2 (6.1.3 available)
+  cloud_firestore_platform_interface 7.0.6 (7.0.7 available)
+  cloud_firestore_web 5.1.2 (5.1.3 available)
+  firebase_ai 3.8.0 (3.9.0 available)
+  firebase_app_check 0.4.1+4 (0.4.1+5 available)
+  firebase_app_check_platform_interface 0.2.1+4 (0.2.1+5 available)
+  firebase_app_check_web 0.2.2+2 (0.2.2+3 available)
+  firebase_auth 6.1.4 (6.2.0 available)
+  firebase_auth_platform_interface 8.1.6 (8.1.7 available)
+  firebase_auth_web 6.1.2 (6.1.3 available)
+  firebase_core 4.4.0 (4.5.0 available)
+  firebase_core_web 3.4.0 (3.5.0 available)
+  firebase_vertexai 2.2.0 (discontinued replaced by firebase_ai)
+  fl_chart 1.1.1 (1.2.0 available)
+  flutter_local_notifications 20.1.0 (21.0.0 available)
+  flutter_local_notifications_linux 7.0.0 (8.0.0 available)
+  flutter_local_notifications_platform_interface 10.0.0 (11.0.0 available)
+  flutter_local_notifications_windows 2.0.1 (3.0.0 available)
+  flutter_riverpod 3.2.1 (3.3.1 available)
+  flutter_secure_storage 9.2.4 (10.0.0 available)
+  flutter_secure_storage_linux 1.2.3 (3.0.0 available)
+  flutter_secure_storage_macos 3.1.3 (4.0.0 available)
+  flutter_secure_storage_platform_interface 1.1.2 (2.0.1 available)
+  flutter_secure_storage_web 1.2.1 (2.1.0 available)
+  flutter_secure_storage_windows 3.1.2 (4.1.0 available)
+  hooks 1.0.1 (1.0.2 available)
+  js 0.6.7 (0.7.2 available)
+  matcher 0.12.18 (0.12.19 available)
+  meta 1.17.0 (1.18.1 available)
+  native_toolchain_c 0.17.4 (0.17.5 available)
+  test 1.29.0 (1.30.0 available)
+  test_api 0.7.9 (0.7.10 available)
+  test_core 0.6.15 (0.6.16 available)
+  timezone 0.10.1 (0.11.0 available)
+  win32 5.15.0 (6.0.0 available)
+  win32_registry 2.1.0 (3.0.2 available)
+Got dependencies!
+1 package is discontinued.
+38 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing silent_spiral...                                      
+
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:117:45 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:162:41 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:300:35 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:312:27 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:313:29 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\dashboard_screen.dart:381:27 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:169:34 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:170:36 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:199:33 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:210:75 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:228:31 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:229:33 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:316:51 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:417:34 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:484:79 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:509:31 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\insights_screen.dart:510:33 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:85:35 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:169:35 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:481:33 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:527:55 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:549:56 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:840:41 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:863:39 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:873:70 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:890:51 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:920:25 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:922:44 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:947:36 - invalid_constant
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:947:45 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:993:35 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:995:54 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\journal_screen.dart:1042:38 - invalid_constant
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\journal_screen.dart:1042:47 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\safety_plan_screen.dart:54:25 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:24:33 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:25:35 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:32:38 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:32:47 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:34:38 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:34:47 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:36:38 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:36:47 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:49:35 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:50:37 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:114:35 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:115:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:122:40 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:122:49 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:124:40 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:124:49 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:127:42 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:127:51 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:169:57 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:290:37 - undefined_getter
+  error - Invalid constant value - lib\ui\screens\settings_screen.dart:310:57 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\screens\settings_screen.dart:310:66 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_avatar.dart:61:33 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:89:45 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:98:64 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:132:98 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\emotion_lexicon.dart:138:66 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:44:27 - undefined_getter
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\micro_checkin.dart:77:50 - undefined_getter
+  error - The getter 'bgDarkElevated' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:50:33 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:94:55 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:94:64 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\passphrase_dialog.dart:121:57 - invalid_constant
+  error - The getter 'bgDarkBorder' isn't defined for the type 'AppTheme' - lib\ui\widgets\passphrase_dialog.dart:121:66 - undefined_getter
+

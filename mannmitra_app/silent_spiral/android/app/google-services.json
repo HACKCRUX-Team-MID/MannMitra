@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769420591449",
+    "project_id": "mann-mitra-c856a",
+    "storage_bucket": "mann-mitra-c856a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769420591449:android:7929164bb3a2cc461c0c48",
+        "android_client_info": {
+          "package_name": "com.MID.MannMitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUV999jdhiSr1ZvNLXl7Fz4S66a_lJbgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
