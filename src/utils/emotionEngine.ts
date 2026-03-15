@@ -701,7 +701,14 @@ export async function detectEmotion(
 
       // Fuse TFLite BERT scores into NLP lexicon scores
       // Flutter weight: BERT provides the base, NLP is the refinement layer
-      if (!predefinedBucket) {
+      const wordCount = journalText.trim().split(/\s+/).filter(Boolean).length;
+      const isLowConfidence = bertResult.confidence < 0.45;
+      const hasNoNLPHits = totalHits < 1.0;
+
+      if (wordCount <= 3 && isLowConfidence && hasNoNLPHits && !predefinedBucket) {
+        predefinedBucket = 'Contemplation';
+        bertMethod = 'tflite-bert-edge-case-filtered';
+      } else if (!predefinedBucket) {
         for (const [cat, prob] of Object.entries(bertResult.scores)) {
           scores[cat] = (scores[cat] || 0) + (prob * 5.0); // 5x weight — BERT is the primary signal
         }
@@ -719,7 +726,16 @@ export async function detectEmotion(
             score: r.score
           }));
           bertMethod = 'hf-distilbert-fallback';
-          if (!predefinedBucket) {
+
+          const maxDistilProb = Math.max(...results.map(r => r.score));
+          const isLowConfidence = maxDistilProb < 0.45;
+          const wordCount = journalText.trim().split(/\s+/).filter(Boolean).length;
+          const hasNoNLPHits = totalHits < 1.0;
+
+          if (wordCount <= 3 && isLowConfidence && hasNoNLPHits && !predefinedBucket) {
+            predefinedBucket = 'Contemplation';
+            bertMethod = 'hf-distilbert-edge-case-filtered';
+          } else if (!predefinedBucket) {
             for (const bs of bertScores) {
               const cat = emotionLabelToCategory(bs.label);
               scores[cat] = (scores[cat] || 0) + (bs.score * 3.0);
@@ -743,7 +759,9 @@ export async function detectEmotion(
 
   // Phase 5: Confidence
   let confidence = 0.45;
-  if (predefinedBucket) {
+  if (bertMethod.includes('edge-case-filtered')) {
+    confidence = 0.20;
+  } else if (predefinedBucket) {
     confidence = 0.92;
   } else if (totalHits > 0 && maxScore > 0) {
     const sortedVals = Object.values(scores).sort((a, b) => b - a);
