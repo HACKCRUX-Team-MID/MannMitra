@@ -26,15 +26,25 @@ const Dashboard = () => {
   useEffect(() => {
     if (user?.id) {
       storage.getAnalytics(user.id).then(setAnalytics).catch(console.error)
-      storage.getEntries(user.id).then((e) => setEntries(e.slice(0, 3))).catch(console.error)
+      
+      // Fetch all entries, then slice the first 3 for Recent Reflections
+      storage.getEntries(user.id)
+        .then((e) => setEntries(e.slice(0, 3)))
+        .catch(console.error)
     }
   }, [user?.id])
 
   const streakDays = analytics?.streak || 0
-  const avgMood = analytics?.moodTrend?.length
-    ? (analytics.moodTrend.reduce((a: number, b: any) => a + b.mood, 0) / analytics.moodTrend.length).toFixed(1)
+  
+  // Feature 2: Dashboard Mood Score
+  // Mean of the last (up to) 3 reflections shown in Recent Reflections
+  const recentScores = entries.slice(0, 3).filter(e => e.intensity != null);
+  const avgMood = recentScores.length > 0
+    ? Math.round(recentScores.reduce((sum, e) => sum + e.intensity, 0) / recentScores.length)
     : "—"
-  const totalEntries = analytics?.totalEntries || 3
+    
+  // Revert fallback to 0 as intended
+  const totalEntries = analytics?.totalEntries || 0
   const userName = user?.name?.split(' ')[0] || 'Friend'
 
   return (
@@ -175,7 +185,7 @@ const Dashboard = () => {
                       {entry.text?.substring(0, 40) || 'Untitled entry'}...
                     </p>
                     <p className="text-sm text-muted-foreground truncate">
-                      Mood: {entry.moodScore || '—'}/10
+                      Mood: {entry.intensity || '—'}/10
                     </p>
                   </div>
                   <p className="text-xs text-muted-foreground whitespace-nowrap">
