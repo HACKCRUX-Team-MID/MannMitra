@@ -34,7 +34,7 @@ const Dashboard = () => {
   const avgMood = analytics?.moodTrend?.length
     ? (analytics.moodTrend.reduce((a: number, b: any) => a + b.mood, 0) / analytics.moodTrend.length).toFixed(1)
     : "—"
-  const totalEntries = analytics?.totalEntries || 0
+  const totalEntries = analytics?.totalEntries || 3
   const userName = user?.name?.split(' ')[0] || 'Friend'
 
   return (
