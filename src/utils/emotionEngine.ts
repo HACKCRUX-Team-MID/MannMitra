@@ -702,10 +702,13 @@ export async function detectEmotion(
       // Fuse TFLite BERT scores into NLP lexicon scores
       // Flutter weight: BERT provides the base, NLP is the refinement layer
       const wordCount = journalText.trim().split(/\s+/).filter(Boolean).length;
-      const isLowConfidence = bertResult.confidence < 0.45;
-      const hasNoNLPHits = totalHits < 1.0;
+      const isStrongConfidence = bertResult.confidence >= 0.70;
+      const hasNoNLPHits = totalHits < 0.5;
 
-      if (wordCount <= 3 && isLowConfidence && hasNoNLPHits && !predefinedBucket) {
+      // Aggressive Filter for Noise/Gibberish
+      // If the NLP lexicons found absolutely nothing, we don't trust the BERT model
+      // unless it is extremely confident (>70%) or the text is very long (and thus has some real context).
+      if (hasNoNLPHits && (wordCount <= 6 || !isStrongConfidence) && !predefinedBucket) {
         predefinedBucket = 'Contemplation';
         bertMethod = 'tflite-bert-edge-case-filtered';
       } else if (!predefinedBucket) {
@@ -728,11 +731,11 @@ export async function detectEmotion(
           bertMethod = 'hf-distilbert-fallback';
 
           const maxDistilProb = Math.max(...results.map(r => r.score));
-          const isLowConfidence = maxDistilProb < 0.45;
+          const isStrongConfidence = maxDistilProb >= 0.70;
           const wordCount = journalText.trim().split(/\s+/).filter(Boolean).length;
-          const hasNoNLPHits = totalHits < 1.0;
+          const hasNoNLPHits = totalHits < 0.5;
 
-          if (wordCount <= 3 && isLowConfidence && hasNoNLPHits && !predefinedBucket) {
+          if (hasNoNLPHits && (wordCount <= 6 || !isStrongConfidence) && !predefinedBucket) {
             predefinedBucket = 'Contemplation';
             bertMethod = 'hf-distilbert-edge-case-filtered';
           } else if (!predefinedBucket) {
