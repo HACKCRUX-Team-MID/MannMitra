@@ -245,6 +245,15 @@ class AIEngineService {
     // Determine primary
     String primaryCat = finalScores.entries.reduce((a, b) => a.value > b.value ? a : b).key;
     double maxProb = finalScores[primaryCat] ?? 0.0;
+    String method = "distilbert+contextual+feedback";
+
+    // Edge case false-prediction filter
+    final wordCount = text.trim().split(RegExp(r'\s+')).where((w) => w.isNotEmpty).length;
+    if (wordCount <= 3 && maxProb < 0.45) {
+      primaryCat = 'contemplation';
+      maxProb = 0.20;
+      method = "tflite-bert-edge-case-filtered";
+    }
 
     // Convert to nice UI strings
     String primaryEmotionUI = primaryCat.substring(0, 1).toUpperCase() + primaryCat.substring(1);
@@ -262,7 +271,7 @@ class AIEngineService {
         primaryEmotion: primaryEmotionUI,
         intensityScore: intensity,
         confidence: maxProb,
-        method: "distilbert+contextual+feedback",
+        method: method,
         reflectionPrompt: "Given these feelings, what is one small thing you need right now?", // Placeholders -> Will be expanded by insight generator next
         awarenessInsight: "You've been navigating these emotions recently.",
         triggers: triggers,
