@@ -1,3 +1,4 @@
+
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
@@ -5,42 +6,224 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ════════════════════════════════════════════════════════
-   LIGHT MODE — Warm ivory base, rich violet accents
+   GLOBAL THEME ENGINE — PALETTES
+   These scales define the exact hex values for every tone.
 ════════════════════════════════════════════════════════ */
 :root {
-  --background: #FAF9FF;
-  --foreground: #1A1730;
+  /* 1. Cosmic — Neon Violet */
+  --cosmic-50: #F5F3FF;
+  --cosmic-100: #EDE9FF;
+  --cosmic-200: #DDD6FE;
+  --cosmic-300: #C4B5FD;
+  --cosmic-400: #A78BFA;
+  --cosmic-500: #8B5CF6;
+  --cosmic-600: #7C3AED;
+  --cosmic-700: #6D28D9;
+  --cosmic-800: #5B21B6;
+  --cosmic-900: #4C1D95;
+  --cosmic-950: #1A1730;
+
+  /* 2. Ocean — Electric Teal */
+  --ocean-50: #F0F9FF;
+  --ocean-100: #E0F2FE;
+  --ocean-200: #BAE6FD;
+  --ocean-300: #7DD3FC;
+  --ocean-400: #38BDF8;
+  --ocean-500: #0EA5E9;
+  --ocean-600: #0284C7;
+  --ocean-700: #0369A1;
+  --ocean-800: #075985;
+  --ocean-900: #0C4A6E;
+  --ocean-950: #082F49;
+
+  /* 3. Sage — Vivid Emerald */
+  --sage-50: #ECFDF5;
+  --sage-100: #D1FAE5;
+  --sage-200: #A7F3D0;
+  --sage-300: #6EE7B7;
+  --sage-400: #34D399;
+  --sage-500: #10B981;
+  --sage-600: #059669;
+  --sage-700: #047857;
+  --sage-800: #065F46;
+  --sage-900: #064E3B;
+  --sage-950: #022C22;
+
+  /* 4. Aurora — Hot Pink / Rose */
+  --aurora-50: #FDF2F8;
+  --aurora-100: #FCE7F3;
+  --aurora-200: #FBCFE8;
+  --aurora-300: #F9A8D4;
+  --aurora-400: #F472B6;
+  --aurora-500: #EC4899;
+  --aurora-600: #DB2777;
+  --aurora-700: #BE185D;
+  --aurora-800: #9D174D;
+  --aurora-900: #831843;
+  --aurora-950: #3D0020;
+
+  /* 5. Solar — Blazing Amber */
+  --solar-50: #FFFBEB;
+  --solar-100: #FEF3C7;
+  --solar-200: #FDE68A;
+  --solar-300: #FCD34D;
+  --solar-400: #FBBF24;
+  --solar-500: #F59E0B;
+  --solar-600: #D97706;
+  --solar-700: #B45309;
+  --solar-800: #92400E;
+  --solar-900: #78350F;
+  --solar-950: #451A03;
+
+  /* 6. Midnight — Deep Indigo Blue */
+  --midnight-50: #EEF2FF;
+  --midnight-100: #E0E7FF;
+  --midnight-200: #C7D2FE;
+  --midnight-300: #A5B4FC;
+  --midnight-400: #818CF8;
+  --midnight-500: #6366F1;
+  --midnight-600: #4F46E5;
+  --midnight-700: #4338CA;
+  --midnight-800: #3730A3;
+  --midnight-900: #312E81;
+  --midnight-950: #1E1B4B;
+}
+
+/* ════════════════════════════════════════════════════════
+   PALETTE ASSIGNMENTS (Routing scales to standard vars)
+════════════════════════════════════════════════════════ */
+
+/* default/Cosmic */
+:root[data-palette="cosmic"], :root:not([data-palette]) {
+  --palette-50: var(--cosmic-50);
+  --palette-100: var(--cosmic-100);
+  --palette-200: var(--cosmic-200);
+  --palette-300: var(--cosmic-300);
+  --palette-400: var(--cosmic-400);
+  --palette-500: var(--cosmic-500);
+  --palette-600: var(--cosmic-600);
+  --palette-700: var(--cosmic-700);
+  --palette-800: var(--cosmic-800);
+  --palette-900: var(--cosmic-900);
+  --palette-950: var(--cosmic-950);
+}
+
+:root[data-palette="ocean"] {
+  --palette-50: var(--ocean-50);
+  --palette-100: var(--ocean-100);
+  --palette-200: var(--ocean-200);
+  --palette-300: var(--ocean-300);
+  --palette-400: var(--ocean-400);
+  --palette-500: var(--ocean-500);
+  --palette-600: var(--ocean-600);
+  --palette-700: var(--ocean-700);
+  --palette-800: var(--ocean-800);
+  --palette-900: var(--ocean-900);
+  --palette-950: var(--ocean-950);
+}
+
+:root[data-palette="sage"] {
+  --palette-50: var(--sage-50);
+  --palette-100: var(--sage-100);
+  --palette-200: var(--sage-200);
+  --palette-300: var(--sage-300);
+  --palette-400: var(--sage-400);
+  --palette-500: var(--sage-500);
+  --palette-600: var(--sage-600);
+  --palette-700: var(--sage-700);
+  --palette-800: var(--sage-800);
+  --palette-900: var(--sage-900);
+  --palette-950: var(--sage-950);
+}
+
+:root[data-palette="aurora"] {
+  --palette-50: var(--aurora-50);
+  --palette-100: var(--aurora-100);
+  --palette-200: var(--aurora-200);
+  --palette-300: var(--aurora-300);
+  --palette-400: var(--aurora-400);
+  --palette-500: var(--aurora-500);
+  --palette-600: var(--aurora-600);
+  --palette-700: var(--aurora-700);
+  --palette-800: var(--aurora-800);
+  --palette-900: var(--aurora-900);
+  --palette-950: var(--aurora-950);
+}
+
+:root[data-palette="solar"] {
+  --palette-50: var(--solar-50);
+  --palette-100: var(--solar-100);
+  --palette-200: var(--solar-200);
+  --palette-300: var(--solar-300);
+  --palette-400: var(--solar-400);
+  --palette-500: var(--solar-500);
+  --palette-600: var(--solar-600);
+  --palette-700: var(--solar-700);
+  --palette-800: var(--solar-800);
+  --palette-900: var(--solar-900);
+  --palette-950: var(--solar-950);
+}
+
+:root[data-palette="midnight"] {
+  --palette-50: var(--midnight-50);
+  --palette-100: var(--midnight-100);
+  --palette-200: var(--midnight-200);
+  --palette-300: var(--midnight-300);
+  --palette-400: var(--midnight-400);
+  --palette-500: var(--midnight-500);
+  --palette-600: var(--midnight-600);
+  --palette-700: var(--midnight-700);
+  --palette-800: var(--midnight-800);
+  --palette-900: var(--midnight-900);
+  --palette-950: var(--midnight-950);
+}
+
+/* ════════════════════════════════════════════════════════
+   SEMANTIC THEME MAPPING (Light Mode)
+════════════════════════════════════════════════════════ */
+:root {
+  --background: var(--palette-50);
+  --foreground: var(--palette-950);
   --card: #FFFFFF;
-  --card-foreground: #1A1730;
+  --card-foreground: var(--palette-950);
   --popover: #FFFFFF;
-  --popover-foreground: #1A1730;
-  --primary: #7C3AED;
+  --popover-foreground: var(--palette-950);
+  
+  --primary: var(--palette-600);
   --primary-foreground: #FFFFFF;
-  --secondary: #06B6D4;
-  --secondary-foreground: #FFFFFF;
-  --muted: #F0EEFF;
-  --muted-foreground: #6E6A8A;
-  --accent: #F59E0B;
-  --accent-foreground: #1A1730;
+  
+  --secondary: var(--palette-200);
+  --secondary-foreground: var(--palette-900);
+  
+  --muted: var(--palette-100);
+  --muted-foreground: var(--palette-600);
+  
+  --accent: var(--palette-200);
+  --accent-foreground: var(--palette-900);
+  
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #E4E0F8;
-  --input: #EDE9FF;
-  --ring: #7C3AED;
-  --chart-1: #7C3AED;
-  --chart-2: #06B6D4;
-  --chart-3: #F59E0B;
-  --chart-4: #10B981;
-  --chart-5: #F97316;
+  
+  --border: var(--palette-200);
+  --input: var(--palette-200);
+  --ring: var(--palette-500);
+  
+  --chart-1: var(--palette-600);
+  --chart-2: var(--palette-400);
+  --chart-3: var(--palette-800);
+  --chart-4: var(--palette-300);
+  --chart-5: var(--palette-500);
+  
   --radius: 1rem;
+  
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #1A1730;
-  --sidebar-primary: #7C3AED;
+  --sidebar-foreground: var(--palette-900);
+  --sidebar-primary: var(--palette-600);
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #F0EEFF;
-  --sidebar-accent-foreground: #1A1730;
-  --sidebar-border: #E4E0F8;
-  --sidebar-ring: #7C3AED;
+  --sidebar-accent: var(--palette-100);
+  --sidebar-accent-foreground: var(--palette-900);
+  --sidebar-border: var(--palette-200);
+  --sidebar-ring: var(--palette-600);
 
   /* Custom mood colors */
   --mood-calm: #06B6D4;
@@ -50,41 +233,49 @@
 }
 
 /* ════════════════════════════════════════════════════════
-   DARK MODE — Deep Space: rich indigo abyss, neon glow
+   SEMANTIC THEME MAPPING (Dark Mode)
 ════════════════════════════════════════════════════════ */
 .dark {
-  --background: #090914;
-  --foreground: #EDE9FF;
-  --card: #12111F;
-  --card-foreground: #EDE9FF;
-  --popover: #12111F;
-  --popover-foreground: #EDE9FF;
-  --primary: #A78BFA;
-  --primary-foreground: #090914;
-  --secondary: #22D3EE;
-  --secondary-foreground: #090914;
-  --muted: #1C1A2E;
-  --muted-foreground: #8882AA;
-  --accent: #F59E0B;
-  --accent-foreground: #090914;
+  --background: #05050A; /* Deepest black for contrast */
+  --foreground: var(--palette-50);
+  --card: #0A0A12;
+  --card-foreground: var(--palette-50);
+  --popover: #0A0A12;
+  --popover-foreground: var(--palette-50);
+  
+  --primary: var(--palette-400);
+  --primary-foreground: var(--palette-950);
+  
+  --secondary: var(--palette-800);
+  --secondary-foreground: var(--palette-100);
+  
+  --muted: var(--palette-900);
+  --muted-foreground: var(--palette-300);
+  
+  --accent: var(--palette-800);
+  --accent-foreground: var(--palette-100);
+  
   --destructive: #F87171;
-  --destructive-foreground: #090914;
-  --border: #1E1B35;
-  --input: #1C1A2E;
-  --ring: #A78BFA;
-  --chart-1: #A78BFA;
-  --chart-2: #22D3EE;
-  --chart-3: #F59E0B;
-  --chart-4: #34D399;
-  --chart-5: #FB923C;
-  --sidebar: #0E0D1A;
-  --sidebar-foreground: #EDE9FF;
-  --sidebar-primary: #A78BFA;
-  --sidebar-primary-foreground: #090914;
-  --sidebar-accent: #1C1A2E;
-  --sidebar-accent-foreground: #EDE9FF;
-  --sidebar-border: #1E1B35;
-  --sidebar-ring: #A78BFA;
+  --destructive-foreground: var(--palette-950);
+  
+  --border: var(--palette-900);
+  --input: var(--palette-900);
+  --ring: var(--palette-500);
+  
+  --chart-1: var(--palette-400);
+  --chart-2: var(--palette-300);
+  --chart-3: var(--palette-600);
+  --chart-4: var(--palette-200);
+  --chart-5: var(--palette-500);
+  
+  --sidebar: #0A0A12;
+  --sidebar-foreground: var(--palette-50);
+  --sidebar-primary: var(--palette-400);
+  --sidebar-primary-foreground: var(--palette-950);
+  --sidebar-accent: var(--palette-900);
+  --sidebar-accent-foreground: var(--palette-50);
+  --sidebar-border: var(--palette-900);
+  --sidebar-ring: var(--palette-400);
 
   /* Custom mood colors */
   --mood-calm: #22D3EE;
@@ -135,11 +326,13 @@
 }
 
 /* ════════════════════════════════════════════════════════
-   BASE STYLES
+   BASE STYLES & GLOBAL TRANSITIONS
 ════════════════════════════════════════════════════════ */
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    /* Smooth transition for theme switching on all elements */
+    transition: background-color 300ms ease, border-color 300ms ease, color 300ms ease, box-shadow 300ms ease;
   }
 
   html {
@@ -154,22 +347,27 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Dark mode: rich layered ambient background */
+  /* Dark mode: rich layered ambient background linked to palette */
   .dark body {
-    background: #090914;
+    background: #05050A; /* Solid base */
     background-image:
-      radial-gradient(ellipse 80% 50% at 20% -10%, rgba(124, 58, 237, 0.12) 0%, transparent 60%),
-      radial-gradient(ellipse 60% 40% at 80% 100%, rgba(6, 182, 212, 0.08) 0%, transparent 60%),
-      radial-gradient(ellipse 40% 40% at 50% 50%, rgba(167, 139, 250, 0.04) 0%, transparent 70%);
+      radial-gradient(ellipse 80% 50% at 20% -10%, color-mix(in srgb, var(--palette-600) 12%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 40% at 80% 100%, color-mix(in srgb, var(--palette-400) 8%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 40% at 50% 50%, color-mix(in srgb, var(--palette-500) 4%, transparent) 0%, transparent 70%);
   }
 
-  /* Light mode: subtle violet bloom */
+  /* Light mode: subtle bloom linked to palette */
   body:not(.dark) {
-    background: #FAF9FF;
+    background: var(--palette-50);
     background-image:
-      radial-gradient(ellipse 70% 40% at 15% 0%, rgba(167, 139, 250, 0.10) 0%, transparent 60%),
-      radial-gradient(ellipse 50% 30% at 85% 100%, rgba(6, 182, 212, 0.07) 0%, transparent 60%);
+      radial-gradient(ellipse 70% 40% at 15% 0%, color-mix(in srgb, var(--palette-300) 25%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 30% at 85% 100%, color-mix(in srgb, var(--palette-200) 30%, transparent) 0%, transparent 60%);
   }
+}
+
+/* Disable transitions on transform to not break interactions */
+button:active *:not(div) {
+  transition: none !important;
 }
 
 /* ════════════════════════════════════════════════════════
@@ -177,11 +375,17 @@
 ════════════════════════════════════════════════════════ */
 .dark [class*="card"],
 .dark .Card {
-  background: rgba(18, 17, 31, 0.85);
+  background: color-mix(in srgb, var(--palette-950) 85%, transparent);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-color: rgba(167, 139, 250, 0.1);
+  border-color: color-mix(in srgb, var(--palette-600) 15%, transparent);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+/* Light mode card borders */
+:not(.dark) [class*="card"],
+:not(.dark) .Card {
+  border-color: var(--palette-200);
 }
 
 /* ════════════════════════════════════════════════════════
@@ -195,33 +399,30 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(124, 58, 237, 0.25);
+  background: color-mix(in srgb, var(--palette-500) 25%, transparent);
   border-radius: 9999px;
 }
 .dark ::-webkit-scrollbar-thumb {
-  background: rgba(167, 139, 250, 0.2);
+  background: color-mix(in srgb, var(--palette-500) 20%, transparent);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(124, 58, 237, 0.5);
+  background: color-mix(in srgb, var(--palette-500) 50%, transparent);
 }
 
 /* ════════════════════════════════════════════════════════
    ANIMATIONS
 ════════════════════════════════════════════════════════ */
 
-/* Voice wave animation for recording */
 @keyframes voice-wave {
   0%   { transform: scaleY(0.3); }
   100% { transform: scaleY(1); }
 }
 
-/* Ambient orb pulse (used on hero/landing) */
 @keyframes orb-pulse {
   0%, 100% { opacity: 0.6; transform: scale(1); }
   50%       { opacity: 1;   transform: scale(1.08); }
 }
 
-/* Shimmer effect for loading states */
 @keyframes shimmer {
   0%   { background-position: -200% center; }
   100% { background-position:  200% center; }
@@ -229,18 +430,17 @@
 
 .shimmer {
   background: linear-gradient(90deg,
-    rgba(167,139,250,0.08) 0%,
-    rgba(167,139,250,0.18) 50%,
-    rgba(167,139,250,0.08) 100%
+    color-mix(in srgb, var(--palette-400) 8%, transparent) 0%,
+    color-mix(in srgb, var(--palette-400) 18%, transparent) 50%,
+    color-mix(in srgb, var(--palette-400) 8%, transparent) 100%
   );
   background-size: 200% auto;
   animation: shimmer 2s linear infinite;
 }
 
-/* Glow pulse on primary buttons */
 @keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 8px rgba(124, 58, 237, 0.4); }
-  50%       { box-shadow: 0 0 24px rgba(124, 58, 237, 0.8), 0 0 48px rgba(124, 58, 237, 0.3); }
+  0%, 100% { box-shadow: 0 0 8px color-mix(in srgb, var(--palette-500) 40%, transparent); }
+  50%       { box-shadow: 0 0 24px color-mix(in srgb, var(--palette-500) 80%, transparent), 0 0 48px color-mix(in srgb, var(--palette-500) 30%, transparent); }
 }
 
 .dark button[class*="bg-primary"] {
@@ -248,173 +448,26 @@
 }
 
 /* ════════════════════════════════════════════════════════
-   COLOUR PALETTES
-   Applied via: document.documentElement.setAttribute('data-palette', id)
-════════════════════════════════════════════════════════ */
-
-/* ─── 1. Cosmic — Neon Violet (default) ─────────────────── */
-:root[data-palette="cosmic"],
-:root:not([data-palette]) {
-  --primary: #7C3AED;
-  --primary-foreground: #FFFFFF;
-  --secondary: #06B6D4;
-  --secondary-foreground: #FFFFFF;
-  --ring: #7C3AED;
-  --chart-1: #7C3AED;
-  --chart-2: #A78BFA;
-  --sidebar-primary: #7C3AED;
-  --sidebar-ring: #7C3AED;
-}
-.dark[data-palette="cosmic"],
-.dark:not([data-palette]) {
-  --primary: #A78BFA;
-  --primary-foreground: #090914;
-  --secondary: #22D3EE;
-  --ring: #A78BFA;
-  --chart-1: #A78BFA;
-  --sidebar-primary: #A78BFA;
-  --sidebar-ring: #A78BFA;
-}
-
-/* ─── 2. Ocean — Electric Teal ──────────────────────────── */
-:root[data-palette="ocean"] {
-  --primary: #0284C7;
-  --primary-foreground: #FFFFFF;
-  --secondary: #38BDF8;
-  --secondary-foreground: #082F49;
-  --ring: #0284C7;
-  --chart-1: #0284C7;
-  --chart-2: #38BDF8;
-  --sidebar-primary: #0284C7;
-  --sidebar-ring: #0284C7;
-}
-.dark[data-palette="ocean"] {
-  --primary: #38BDF8;
-  --primary-foreground: #082F49;
-  --secondary: #67E8F9;
-  --secondary-foreground: #082F49;
-  --ring: #38BDF8;
-  --chart-1: #38BDF8;
-  --sidebar-primary: #38BDF8;
-  --sidebar-ring: #38BDF8;
-}
-
-/* ─── 3. Sage — Vivid Emerald ───────────────────────────── */
-:root[data-palette="sage"] {
-  --primary: #059669;
-  --primary-foreground: #FFFFFF;
-  --secondary: #34D399;
-  --secondary-foreground: #022C22;
-  --ring: #059669;
-  --chart-1: #059669;
-  --chart-2: #34D399;
-  --sidebar-primary: #059669;
-  --sidebar-ring: #059669;
-}
-.dark[data-palette="sage"] {
-  --primary: #34D399;
-  --primary-foreground: #022C22;
-  --secondary: #6EE7B7;
-  --secondary-foreground: #022C22;
-  --ring: #34D399;
-  --chart-1: #34D399;
-  --sidebar-primary: #34D399;
-  --sidebar-ring: #34D399;
-}
-
-/* ─── 4. Aurora — Hot Pink / Rose ──────────────────────── */
-:root[data-palette="aurora"] {
-  --primary: #DB2777;
-  --primary-foreground: #FFFFFF;
-  --secondary: #FB7185;
-  --secondary-foreground: #FFFFFF;
-  --ring: #DB2777;
-  --chart-1: #DB2777;
-  --chart-2: #F9A8D4;
-  --sidebar-primary: #DB2777;
-  --sidebar-ring: #DB2777;
-}
-.dark[data-palette="aurora"] {
-  --primary: #F472B6;
-  --primary-foreground: #3D0020;
-  --secondary: #FB7185;
-  --secondary-foreground: #3D0020;
-  --ring: #F472B6;
-  --chart-1: #F472B6;
-  --sidebar-primary: #F472B6;
-  --sidebar-ring: #F472B6;
-}
-
-/* ─── 5. Solar — Blazing Amber ──────────────────────────── */
-:root[data-palette="solar"] {
-  --primary: #D97706;
-  --primary-foreground: #FFFFFF;
-  --secondary: #F59E0B;
-  --secondary-foreground: #451A03;
-  --ring: #D97706;
-  --chart-1: #D97706;
-  --chart-2: #FCD34D;
-  --sidebar-primary: #D97706;
-  --sidebar-ring: #D97706;
-}
-.dark[data-palette="solar"] {
-  --primary: #FCD34D;
-  --primary-foreground: #451A03;
-  --secondary: #FB923C;
-  --secondary-foreground: #431407;
-  --ring: #FCD34D;
-  --chart-1: #FCD34D;
-  --sidebar-primary: #FCD34D;
-  --sidebar-ring: #FCD34D;
-}
-
-/* ─── 6. Midnight — Deep Indigo Blue ───────────────────── */
-:root[data-palette="midnight"] {
-  --primary: #4F46E5;
-  --primary-foreground: #FFFFFF;
-  --secondary: #6366F1;
-  --secondary-foreground: #FFFFFF;
-  --ring: #4F46E5;
-  --chart-1: #4F46E5;
-  --chart-2: #818CF8;
-  --sidebar-primary: #4F46E5;
-  --sidebar-ring: #4F46E5;
-}
-.dark[data-palette="midnight"] {
-  --primary: #818CF8;
-  --primary-foreground: #1E1B4B;
-  --secondary: #A5B4FC;
-  --secondary-foreground: #1E1B4B;
-  --ring: #818CF8;
-  --chart-1: #818CF8;
-  --sidebar-primary: #818CF8;
-  --sidebar-ring: #818CF8;
-}
-
-/* ════════════════════════════════════════════════════════
    MICRO-INTERACTION UTILITIES
 ════════════════════════════════════════════════════════ */
 
-/* Button press feel */
 button:active:not(:disabled) {
   transform: scale(0.97);
-  transition: transform 80ms ease;
+  transition: transform 80ms ease !important;
 }
 
-/* Smooth card hover lift */
 .dark [class*="rounded"] {
-  transition: box-shadow 200ms ease, border-color 200ms ease;
+  transition: box-shadow 300ms ease, border-color 300ms ease, background-color 300ms ease, color 300ms ease;
 }
 .dark [class*="rounded"]:hover {
-  border-color: rgba(167, 139, 250, 0.18);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(167, 139, 250, 0.08);
+  border-color: color-mix(in srgb, var(--palette-400) 25%, transparent);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px color-mix(in srgb, var(--palette-400) 10%, transparent);
 }
 
-/* Selection colour */
 ::selection {
-  background: rgba(124, 58, 237, 0.25);
+  background: color-mix(in srgb, var(--palette-500) 25%, transparent);
   color: inherit;
 }
 .dark ::selection {
-  background: rgba(167, 139, 250, 0.3);
+  background: color-mix(in srgb, var(--palette-400) 30%, transparent);
 }
